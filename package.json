@@ -1,0 +1,21 @@
+{
+  "name": "w3assignmentsocialmedia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "",
+    "start":""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikkkkk239/W3AssignmentSocialMedia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikkkkk239/W3AssignmentSocialMedia/issues"
+  },
+  "homepage": "https://github.com/nikkkkk239/W3AssignmentSocialMedia#readme",
+  "description": ""
+}
