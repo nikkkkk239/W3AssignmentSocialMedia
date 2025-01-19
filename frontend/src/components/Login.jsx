@@ -23,7 +23,7 @@ function Login() {
         navigate("/admin")
     }
   return (
-    <section className="mt-40 ml-2 mr-2 max-w-4xl p-6 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
+    <section className="mt-40 ml-1 mr-1 max-w-4xl p-6 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
     <h2 className="text-lg font-semibold text-gray-700 capitalize dark:text-white">Admin Login</h2>
 
     <form>
