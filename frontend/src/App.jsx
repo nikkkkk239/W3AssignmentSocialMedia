@@ -17,6 +17,7 @@ function App() {
 
   useEffect(()=>{
     checkAuth();
+    console.log(import.meta.env.VITE_REACT_APP_BASEURL);
   },[checkAuth])
 
   if(isCheckingAuth){
