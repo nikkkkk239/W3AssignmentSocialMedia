@@ -84,7 +84,7 @@ export const useAuthStore = create((set,get)=>({
             socket.disconnect();
             socket.removeAllListeners(); 
         }
-        const newSocket = io("http://localhost:5000", {
+        const newSocket = io(baseURL, {
             query: { userId: authUser._id },
             reconnection: true, 
             reconnectionAttempts: 5, 
