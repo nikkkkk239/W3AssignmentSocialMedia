@@ -16,7 +16,7 @@ app.use(cors({
     methods: ['GET', 'POST', 'OPTIONS', 'PUT', 'DELETE'],
     credentials:true
 }))
-app.use(express.json({limit:'10mb'}));
+app.use(express.json({limit:'6mb'}));
 app.use(cookieParser());
 app.use(fileUpload({useTempFiles:true}))
 
