@@ -6,6 +6,11 @@ import cors from "cors"
 dotenv.config();
 
 const app = express();
+app.use(cors({
+    origin:process.env.FRONTEND_URL,
+    methods: ['GET', 'POST', 'OPTIONS', 'PUT', 'DELETE'],
+    credentials:true
+}))
 
 const server = http.createServer(app);
 
